@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="Reg_WcfDBDataSet_v1.eperHelperRegClass" CodeBehind="eperHelperRegWS.svc.vb" %>

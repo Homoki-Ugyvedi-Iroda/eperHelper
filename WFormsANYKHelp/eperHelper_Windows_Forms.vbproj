@@ -1,0 +1,885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E455E88-28AF-4F81-AF76-41D928437BEA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>homoki.eperhelper</RootNamespace>
+    <AssemblyName>eperHelper</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>D:\tmp\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>2</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.homoki.net/swinstpriv/</InstallUrl>
+    <SupportUrl>http://www.homoki.net/images/eperhelper_felhasznaloi_kezikonyv.pdf</SupportUrl>
+    <ProductName>eperHelper</ProductName>
+    <PublisherName>Homoki Ügyvédi Iroda</PublisherName>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>81</ApplicationRevision>
+    <ApplicationVersion>1.0.2.81</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>eperHelper.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>eperHelper.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\eper_helper_button_32x32_rgb_v1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2F1E311DDC3713908294C86D3688F579D831D1B6</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Arconsult|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Arconsult\</OutputPath>
+    <DocumentationFile>eperHelper.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DefineConstants>ARCONSULT="Y"</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Saját oktatási|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Saját oktatási\</OutputPath>
+    <DefineConstants>OKTATASI="Y"</DefineConstants>
+    <DocumentationFile>eperHelper.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestTimestampUrl>
+    </ManifestTimestampUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CoreTechs.Common, Version=21.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CoreTechs.Common.21.0.0\lib\net45\CoreTechs.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataGridViewAutoFilter">
+      <HintPath>..\..\..\..\..\..\..\temp\DGVAF\DataGridViewAutoFilter\VB\DataGridViewAutoFilter\ProgrammaticSetupDemo\bin\Debug\DataGridViewAutoFilter.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\..\..\..\..\temp\ikvm\ikvm-8.1.5717.0\bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.Ribbon35">
+      <HintPath>..\..\..\Ribbon2013\System.Windows.Forms.Ribbon35.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WebDriver, Version=3.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.3.0\lib\net40\WebDriver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.3.0\lib\net40\WebDriver.Support.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="homoki.eperhelper" />
+    <Import Include="homoki.eperhelper.My" />
+    <Import Include="homoki.eperhelper.My.Resources" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.IO" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="XSign4COMLib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ANYHelpModule.vb" />
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CsomagKeszito.Designer.vb">
+      <DependentUpon>CsomagKeszito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CsomagKeszito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinalizeENYK.vb" />
+    <Compile Include="GetAdaptersInfo.vb" />
+    <Compile Include="HttpReqResUKP.vb" />
+    <Compile Include="Kapukezelo.vb" />
+    <Compile Include="Kitolt.Designer.vb">
+      <DependentUpon>Kitolt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kitolt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadDatafromKR.vb" />
+    <Compile Include="lvFilesforCsomagKeszito.vb" />
+    <Compile Include="MainClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainClass.Designer.vb">
+      <DependentUpon>MainClass.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="NyomtatvanyAdatokDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NyomtatvanyAdatokDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NyomtatvanyAdatokDataSet.vb">
+      <DependentUpon>NyomtatvanyAdatokDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\RegSrv\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\BekuldesRichTextForm.Designer.vb">
+      <DependentUpon>BekuldesRichTextForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\BekuldesRichTextForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\CsvImport.Designer.vb">
+      <DependentUpon>CsvImport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\CsvImport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\KuldemenyEllenorzese.Designer.vb">
+      <DependentUpon>KuldemenyEllenorzese.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\KuldemenyEllenorzese.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\RegisztraciosAblak.Designer.vb">
+      <DependentUpon>RegisztraciosAblak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\RegisztraciosAblak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="SettingsBackup.vb" />
+    <Compile Include="SmallForms\3UNamePassForm.Designer.vb">
+      <DependentUpon>3UNamePassForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\3UNamePassForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\CSTExtractForm.Designer.vb">
+      <DependentUpon>CSTExtractForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\CSTExtractForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\KRExtractForm.Designer.vb">
+      <DependentUpon>KRExtractForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\KRExtractForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\DecryptChooser.Designer.vb">
+      <DependentUpon>DecryptChooser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\DecryptChooser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\DefSigCert.Designer.vb">
+      <DependentUpon>DefSigCert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\DefSigCert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\ENYKnyito.Designer.vb">
+      <DependentUpon>ENYKnyito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\ENYKnyito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\KRviewer.Designer.vb">
+      <DependentUpon>KRviewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\KRviewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\MappaBeállító.Designer.vb">
+      <DependentUpon>MappaBeállító.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\MappaBeállító.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\NyomiLista.Designer.vb">
+      <DependentUpon>NyomiLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\NyomiLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\Névjegy.Designer.vb">
+      <DependentUpon>Névjegy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\Névjegy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\Passwbox.Designer.vb">
+      <DependentUpon>Passwbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\Passwbox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\PDFprint.Designer.vb">
+      <DependentUpon>PDFprint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\PDFprint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\Csomagolas_alatt_short_message.Designer.vb">
+      <DependentUpon>Csomagolas_alatt_short_message.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\Csomagolas_alatt_short_message.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\RegMsgBoxwOtherlabels.Designer.vb">
+      <DependentUpon>RegMsgBoxwOtherlabels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\RegMsgBoxwOtherlabels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\SelectPreferredBrowser.Designer.vb">
+      <DependentUpon>SelectPreferredBrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\SelectPreferredBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\Torzsadattorlo.Designer.vb">
+      <DependentUpon>Torzsadattorlo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\Torzsadattorlo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\WebBrowserNew.Designer.vb">
+      <DependentUpon>WebBrowserNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\WebBrowserNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\TitkositoKulcsBeallitasa.Designer.vb">
+      <DependentUpon>TitkositoKulcsBeallitasa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\TitkositoKulcsBeallitasa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmallForms\XMLXKRnyito.Designer.vb">
+      <DependentUpon>XMLXKRnyito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SmallForms\XMLXKRnyito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDBForms\TDB_Ceg.Designer.vb">
+      <DependentUpon>TDB_Ceg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDBForms\TDB_Ceg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDBForms\TDB_EJKV.Designer.vb">
+      <DependentUpon>TDB_EJKV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDBForms\TDB_EJKV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDBForms\TDB_ESZ.Designer.vb">
+      <DependentUpon>TDB_ESZ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDBForms\TDB_ESZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDBForms\TDB_EU.Designer.vb">
+      <DependentUpon>TDB_EU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDBForms\TDB_EU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDBForms\TDB_EV.Designer.vb">
+      <DependentUpon>TDB_EV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDBForms\TDB_EV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDBForms\TDB_JT.Designer.vb">
+      <DependentUpon>TDB_JT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDBForms\TDB_JT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDBForms\TDB_Other.Designer.vb">
+      <DependentUpon>TDB_Other.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDBForms\TDB_Other.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDBForms\TDB_TESZ.Designer.vb">
+      <DependentUpon>TDB_TESZ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDBForms\TDB_TESZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDBForms\TDB_Ugy.Designer.vb">
+      <DependentUpon>TDB_Ugy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDBForms\TDB_Ugy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDBForms\TDB_UI.Designer.vb">
+      <DependentUpon>TDB_UI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TDBForms\TDB_UI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDB_Form_Helper.vb" />
+    <Compile Include="TorzsAdatbazisDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TorzsAdatbazisDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TorzsAdatbazisDataSet.vb">
+      <DependentUpon>TorzsAdatbazisDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WebDownload.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CsomagKeszito.resx">
+      <DependentUpon>CsomagKeszito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitolt.resx">
+      <DependentUpon>Kitolt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainClass.resx">
+      <DependentUpon>MainClass.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\BekuldesRichTextForm.resx">
+      <DependentUpon>BekuldesRichTextForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\CsvImport.resx">
+      <DependentUpon>CsvImport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\KuldemenyEllenorzese.resx">
+      <DependentUpon>KuldemenyEllenorzese.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\RegisztraciosAblak.resx">
+      <DependentUpon>RegisztraciosAblak.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\3UNamePassForm.resx">
+      <DependentUpon>3UNamePassForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\CSTExtractForm.resx">
+      <DependentUpon>CSTExtractForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\KRExtractForm.resx">
+      <DependentUpon>KRExtractForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\DecryptChooser.resx">
+      <DependentUpon>DecryptChooser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\DefSigCert.resx">
+      <DependentUpon>DefSigCert.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\ENYKnyito.resx">
+      <DependentUpon>ENYKnyito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\KRviewer.resx">
+      <DependentUpon>KRviewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\MappaBeállító.resx">
+      <DependentUpon>MappaBeállító.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\NyomiLista.resx">
+      <DependentUpon>NyomiLista.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\Névjegy.resx">
+      <DependentUpon>Névjegy.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\Passwbox.resx">
+      <DependentUpon>Passwbox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\PDFprint.resx">
+      <DependentUpon>PDFprint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\Csomagolas_alatt_short_message.resx">
+      <DependentUpon>Csomagolas_alatt_short_message.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\RegMsgBoxwOtherlabels.resx">
+      <DependentUpon>RegMsgBoxwOtherlabels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\SelectPreferredBrowser.resx">
+      <DependentUpon>SelectPreferredBrowser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\Torzsadattorlo.resx">
+      <DependentUpon>Torzsadattorlo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\WebBrowserNew.resx">
+      <DependentUpon>WebBrowserNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\TitkositoKulcsBeallitasa.resx">
+      <DependentUpon>TitkositoKulcsBeallitasa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmallForms\XMLXKRnyito.resx">
+      <DependentUpon>XMLXKRnyito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDBForms\TDB_Ceg.resx">
+      <DependentUpon>TDB_Ceg.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDBForms\TDB_EJKV.resx">
+      <DependentUpon>TDB_EJKV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDBForms\TDB_ESZ.resx">
+      <DependentUpon>TDB_ESZ.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDBForms\TDB_EU.resx">
+      <DependentUpon>TDB_EU.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDBForms\TDB_EV.resx">
+      <DependentUpon>TDB_EV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDBForms\TDB_JT.resx">
+      <DependentUpon>TDB_JT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDBForms\TDB_Other.resx">
+      <DependentUpon>TDB_Other.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDBForms\TDB_TESZ.resx">
+      <DependentUpon>TDB_TESZ.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDBForms\TDB_Ugy.resx">
+      <DependentUpon>TDB_Ugy.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDBForms\TDB_UI.resx">
+      <DependentUpon>TDB_UI.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chromedriver.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EperHelper_nevjegy.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="eperHelper_felhasznaloi_kezikonyv.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="geckodriver.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MicrosoftWebDriver_10240.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MicrosoftWebDriver_10586.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MicrosoftWebDriver_14393.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\browsericons.png" />
+    <Content Include="MicrosoftWebDriver_15063.exe" />
+    <Content Include="Publish_megjegyzesek.txt" />
+    <Content Include="XadesSigner.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XadesSignerLocale_ENG.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XadesSignerLocale_GER.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XadesSignerLocale_HUN.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xsign.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="app.manifest" />
+    <None Include="HPcodesigningpass.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NyomtatvanyAdatokDataSet.xsc">
+      <DependentUpon>NyomtatvanyAdatokDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NyomtatvanyAdatokDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NyomtatvanyAdatokDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NyomtatvanyAdatokDataSet.xss">
+      <DependentUpon>NyomtatvanyAdatokDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Resources\ures_csv.zip" />
+    <None Include="Service References\RegSrv\eperHelperRegClass.wsdl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TorzsAdatbazisDataSet.xsc">
+      <DependentUpon>TorzsAdatbazisDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TorzsAdatbazisDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TorzsAdatbazisDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TorzsAdatbazisDataSet.xss">
+      <DependentUpon>TorzsAdatbazisDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Delegate_8339.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Visual.C++.12.0.x86">
+      <Visible>False</Visible>
+      <ProductName>Visual C++ "12" Runtime Libraries %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_16xLG_red.png" />
+    <None Include="Resources\settings.enyk" />
+    <None Include="Resources\StatusAnnotations_Information_16xLG_color_magenta.png" />
+    <None Include="Resources\user_16xLG.png" />
+    <None Include="Resources\toolbox_16xLG.png" />
+    <None Include="Resources\test_16xLG.png" />
+    <None Include="Resources\StatusAnnotations_Warning_16xLG_color.png" />
+    <None Include="Resources\StatusAnnotations_Stop_16xLG_color.png" />
+    <None Include="Resources\StatusAnnotations_Play_16xLG_color.png" />
+    <None Include="Resources\StatusAnnotations_Play_16xLG.png" />
+    <None Include="Resources\StatusAnnotations_Information_16xLG.png" />
+    <None Include="Resources\StatusAnnotations_Help_and_inconclusive_16xLG_color.png" />
+    <None Include="Resources\StatusAnnotations_Help_and_inconclusive_16xLG.png" />
+    <None Include="Resources\StatusAnnotations_Critical_16xLG_color.png" />
+    <None Include="Resources\StatusAnnotations_Critical_16xLG.png" />
+    <None Include="Resources\StatusAnnotations_Complete_and_ok_16xLG_color.png" />
+    <None Include="Resources\StatusAnnotations_Complete_and_ok_16xLG.png" />
+    <None Include="Resources\StatusAnnotations_Blocked_16xLG_color.png" />
+    <None Include="Resources\StatusAnnotations_Alert_16xLG_color.png" />
+    <None Include="Resources\refresh_16xLG.png" />
+    <None Include="Resources\enum_16xLG.png" />
+    <None Include="Resources\build_Solution_16xLG.png" />
+    <None Include="Resources\breakpoint_Off_16xLG.png" />
+    <None Include="Resources\Bracket_Curved_16xLG.png" />
+    <None Include="Resources\bookmark_003_16xLG.png" />
+    <None Include="Resources\book_Open_16xLG.png" />
+    <None Include="Resources\Binary_16xLG.png" />
+    <None Include="Resources\ASCube_16xLG.png" />
+    <None Include="Resources\arrow_Up_16xLG.png" />
+    <None Include="Resources\Arrow_UndoRevertRestore_16xLG_color.png" />
+    <None Include="Resources\arrow_Sync_16xLG.png" />
+    <None Include="Resources\Arrow_RedoRetry_16xLG_color.png" />
+    <None Include="Resources\Arrow_RedoRetry_16xLG.png" />
+    <None Include="Resources\arrow_Previous_16xLG_color.png" />
+    <None Include="Resources\arrow_previous_16xLG.png" />
+    <None Include="Resources\arrow_open_16xLG.png" />
+    <None Include="Resources\arrow_Next_16xLG_color.png" />
+    <None Include="Resources\arrow_Next_16xLG.png" />
+    <None Include="Resources\arrow_Forward_16xLG.png" />
+    <None Include="Resources\arrow_Dynamic16xLG.png" />
+    <None Include="Resources\arrow_Down_16xLG.png" />
+    <None Include="Resources\arrow_back_16xLG.png" />
+    <None Include="Resources\animation_16xLG.png" />
+    <None Include="Resources\AddressEnvelope_16xLG.png" />
+    <None Include="Resources\action_Cancel_16xLG.png" />
+    <None Include="Resources\action_add_16xLG.png" />
+    <None Include="Resources\Deploy_dts_SQL_16xLG.png" />
+    <None Include="Resources\OBHGEPIResources_v1.4.jar" />
+    <None Include="Resources\2_settings.png" />
+    <None Include="Resources\2_settings_green.png" />
+    <None Include="Resources\2_settings_red.png" />
+    <None Include="Resources\4_folders.png" />
+    <None Include="Resources\5_blue.png" />
+    <None Include="Resources\5_green.png" />
+    <None Include="Resources\5_magenta.png" />
+    <None Include="Resources\5_orig.png" />
+    <None Include="Resources\5_red.png" />
+    <None Include="Resources\5b_upload_green.png" />
+    <None Include="Resources\5b_upload_magenta.png" />
+    <None Include="Resources\5b_upload_masblue.png" />
+    <None Include="Resources\5b_upload_orig.png" />
+    <None Include="Resources\5b_upload_red.png" />
+    <None Include="Resources\5c_blue.png" />
+    <None Include="Resources\5c_green.png" />
+    <None Include="Resources\5c_magenta.png" />
+    <None Include="Resources\5c_orig.png" />
+    <None Include="Resources\10_export.png" />
+    <None Include="Resources\14_fillout.png" />
+    <None Include="Resources\16_case.png" />
+    <None Include="Resources\16b_case.png" />
+    <None Include="Resources\17_person.png" />
+    <None Include="Resources\1_notify_bwtr_small.png" />
+    <None Include="Resources\18_lawyer.png" />
+    <None Include="Resources\StatusAnnotations_Information_16xLG_color_red.png" />
+    <None Include="Resources\9_passw_print.png" />
+    <None Include="Resources\9_passw_record.png" />
+    <None Include="Resources\9_passw_export.png" />
+    <None Include="Resources\XMLFile_32x.png" />
+    <None Include="Resources\XMLFile_32x_ENYK.png" />
+    <None Include="Resources\Adobe_PDF_file_icon_32x32.png" />
+    <None Include="Resources\CubeBuilderView.ico" />
+    <None Include="Resources\CubeBuilderView_1.png" />
+    <None Include="Resources\15_package_extract_CST_alt.png" />
+    <None Include="Resources\15_package_extract_KR.png" />
+    <None Include="Resources\15_package_extract_CST.png" />
+    <None Include="Resources\15_package_extract.png" />
+    <None Include="Resources\15_package_XML.png" />
+    <None Include="Resources\15_package_ENYK.png" />
+    <None Include="Resources\certificate_32xLG.png" />
+    <Content Include="eper_helper_button_32x32_rgb_v1.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="KriptoWrapper.jar">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\kriptosdk2.jar">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.VC120.CRT\msvcp120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.VC120.CRT\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.VC120.CRT\vccorlib120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NyomtatvanyAdatok.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Column_32x.png" />
+    <None Include="Resources\list_16xSM.png" />
+    <None Include="Resources\MemoryArray_16x.png" />
+    <None Include="Resources\TorzsAdatbazis.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\eper_helper_button_32x32_rgb_v1.ico" />
+    <None Include="Service References\RegSrv\configuration91.svcinfo" />
+    <None Include="Service References\RegSrv\configuration.svcinfo" />
+    <None Include="Service References\RegSrv\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\server_reg.xml" />
+    <Content Include="TorzsAdatbazis.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="NyomtatvanyAdatok.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="TorzsAdatbazis.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\RegSrv\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="XSign4COMLib">
+      <Guid>{B3B64753-98B1-4234-92D3-3F1C97108649}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>True</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

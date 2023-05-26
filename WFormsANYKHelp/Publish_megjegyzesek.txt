@@ -1,0 +1,8 @@
+﻿Először Solution Configuration = RELEASE változat publikálása; Assembly Name = eperHelper, publish location / publishing folder = D:\tmp\publish\, installation folder URL = http://www.homoki.net/swinstpriv/
+ARCONSULT változathoz: Solution Configuration = ARCONSULT, Assembly Name = eperHelper_ARCONSULT, publish location / publishing folder = C:\ehelperarconsult, installation folder URL = http://www.homoki.net/loadmein/ 
+Utána visszváltás Solution Configurationban, Assembly Name-ben, publish location-ben
+publishing folder-ben publish.htm-ek javítása megfelelő sorszámra
+ftp upload, kettővel korábbi változatok törlése
+team explorer changes, commit, majd push/sync
+RELEASE változatban újonnan létrejött setup.exe átnevezése setupeperHelper.exe-be
+vissza debug változatba, assembly version és publish version növelése

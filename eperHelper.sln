@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "eperHelper_Windows_Forms", "WFormsANYKHelp\eperHelper_Windows_Forms.vbproj", "{9E455E88-28AF-4F81-AF76-41D928437BEA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "eperHelper_RegServer_WCFDBDataSet", "Reg_WcfDBDataSet_v1\eperHelper_RegServer_WCFDBDataSet.vbproj", "{89EEE8C8-5302-41F1-A949-AB52E23A4215}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "eperHelperRegAdminWForms", "eperHelperRegAdminWForms\eperHelperRegAdminWForms.vbproj", "{52806305-5587-47A1-A716-0200C7982B68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Arconsult|Any CPU = Arconsult|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Saját oktatási|Any CPU = Saját oktatási|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E455E88-28AF-4F81-AF76-41D928437BEA}.Arconsult|Any CPU.ActiveCfg = Arconsult|Any CPU
+		{9E455E88-28AF-4F81-AF76-41D928437BEA}.Arconsult|Any CPU.Build.0 = Arconsult|Any CPU
+		{9E455E88-28AF-4F81-AF76-41D928437BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E455E88-28AF-4F81-AF76-41D928437BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E455E88-28AF-4F81-AF76-41D928437BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E455E88-28AF-4F81-AF76-41D928437BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E455E88-28AF-4F81-AF76-41D928437BEA}.Saját oktatási|Any CPU.ActiveCfg = Saját oktatási|Any CPU
+		{9E455E88-28AF-4F81-AF76-41D928437BEA}.Saját oktatási|Any CPU.Build.0 = Saját oktatási|Any CPU
+		{89EEE8C8-5302-41F1-A949-AB52E23A4215}.Arconsult|Any CPU.ActiveCfg = Release|Any CPU
+		{89EEE8C8-5302-41F1-A949-AB52E23A4215}.Arconsult|Any CPU.Build.0 = Release|Any CPU
+		{89EEE8C8-5302-41F1-A949-AB52E23A4215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89EEE8C8-5302-41F1-A949-AB52E23A4215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89EEE8C8-5302-41F1-A949-AB52E23A4215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89EEE8C8-5302-41F1-A949-AB52E23A4215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89EEE8C8-5302-41F1-A949-AB52E23A4215}.Saját oktatási|Any CPU.ActiveCfg = Release|Any CPU
+		{89EEE8C8-5302-41F1-A949-AB52E23A4215}.Saját oktatási|Any CPU.Build.0 = Release|Any CPU
+		{52806305-5587-47A1-A716-0200C7982B68}.Arconsult|Any CPU.ActiveCfg = Release|Any CPU
+		{52806305-5587-47A1-A716-0200C7982B68}.Arconsult|Any CPU.Build.0 = Release|Any CPU
+		{52806305-5587-47A1-A716-0200C7982B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52806305-5587-47A1-A716-0200C7982B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52806305-5587-47A1-A716-0200C7982B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52806305-5587-47A1-A716-0200C7982B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52806305-5587-47A1-A716-0200C7982B68}.Saját oktatási|Any CPU.ActiveCfg = Release|Any CPU
+		{52806305-5587-47A1-A716-0200C7982B68}.Saját oktatási|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

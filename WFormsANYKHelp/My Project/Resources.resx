@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="refresh_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="action_add_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\action_add_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5c_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5c_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strSikeresCsomagRTF" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1250\deff0\nouicompat\deflang1038{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red255\green255\blue255;}{\*\generator Riched20 10.0.14393}\viewkind4\uc1 \pard\sa200\sl276\slmult1\highlight1\f0\fs19\lang14 Sikeresen elk\f1\'e9sz\'fclt a KR csomag.\par\pard\sa200\sl276\slmult1\qj Ha b\'f6ng\'e9sz\f2\'f5vel k\f1\'edv\'e1nja felt\'f6lteni, \f2\lang1038 kattintson al\'e1bb a kapu t\'edpus\'e1nak megfelel\'f5 al\'e1bbi egyik gombra.\parA\f1\lang14  \f2\lang1038 b\'f6ng\'e9sz\'f5 \f1\lang14 felt\'f6lt\'e9si ablak\f2\lang1038\'e1nak\f1\lang14  \f2\lang1038 megny\'edl\'e1sa \f1\lang14 ut\'e1n\f2\lang1038 a\f1\lang14  \f2\lang1038 elegend\'f5 a bor\'edt\'e9k nev\'e9t \'e9s el\'e9rhet\'f5s\'e9gi \'fatvonal\'e1t a \b\f1\lang14 Ctrl+V \b0 gombbal vagy jobb eg\'e9rgomb '\b Beilleszt\'e9s\b0 ' paranccs\f2\lang1038\'e1v\f1\lang14 al \f2\lang1038 bem\'e1solni a b\'f6ng\'e9sz\'f5 ablak\'e1ba\f1\lang14 .\f2\lang1038  Kattintson a megnyit\'e1s, majd a kiv\'e1laszt\'f3 p\'e1rbesz\'e9dablak ut\'e1n a \b Felt\'f6lt\'e9s \b0 gombra.\f1\lang14\par\f2\lang1038 (\f1\lang14 Ha egy \'fcgyben ez az els\f2\'f5 beadv\f1\'e1nya, a bek\'fcld\'e9s ut\'e1n megkapott \b\'e9rkeztet\'e9si sz\'e1mot \b0 r\'f6gz\'edtse a\f2\lang1038  T\'f6rzs\f1\lang14 adatb\'e1zis\f2\lang1038 /\'dcgyekn\'e9l\f1\lang14 , \'edgy \'fcgysz\'e1m hi\'e1ny\'e1ban is k\'f6nnyen megtal\'e1lja, hogy melyik b\'edr\'f3s\'e1gi v\'e1lasz milyen beadv\'e1ny\'e1ra is vonatkozik.\f2\lang1038 )\highlight0\f3\fs22\lang14\par}</value>
+    <comment>Sikeres csomaggal kapcsolatos üzenet RTF-ben</comment>
+  </data>
+  <data name="_2_settings_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2_settings_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strRegisztraciosTxtRtf" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1250\deff0\nouicompat\deflang1038{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red255\green255\blue255;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.14393}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qj\highlight1\f0\fs20\lang14 Az eperHelper haszn\'e1lata regisztr\'e1ci\'f3hoz k\'f6t\'f6tt. \'d6n a program haszn\'e1lat\'e1val elfogadja a v\'e1s\'e1rl\'e1s el\'f5tt megjelen\'edtett felhaszn\'e1l\'e1si felt\'e9teleket (elt\'e9r\'f5 rendelkez\'e9s hi\'e1ny\'e1ban a {\b{\field{\*\fldinst{HYPERLINK www.homoki.net/images/EULA_Arconsult.pdf }}{\fldrslt{www.homoki.net/images/EULA_Arconsult.pdf\ul0\cf0}}}}\b\f0\fs20  \b0  c\'edmen el\'e9rhet\'f5 felt\'e9teleket)\par
+
+\pard\sa200\sl276\slmult1 Ebben az ablakban adhatja meg a szerz\'f5i jogd\f1\lang1033\'edj kifizet\'e9s\'e9t k\'f6vet\f0\'f5\f1 en emailben kapott regisztr\'e1ci\'f3s kulcsot, amellyel a programot regisztr\'e1lja.\f0\lang1038  \b Ha ki akarja pr\'f3b\'e1lni a nem teljes \'e9rt\'e9k\'fb dem\'f3 v\'e1ltozatot, ne adjon meg kulcsot.\b0\f1\lang1033\par
+\b Figyelem!\b0\par
+
+\pard\sa200\sl276\slmult1\qj Azon a g\'e9pen regisztr\'e1lja a programot, amelyen k\'e9s\f0\'f5\f1 bb is majd haszn\'e1lni k\'edv\'e1nja\f0\lang1038 . A\f1\lang1033  regisztr\'e1ci\'f3 meghat\'e1rozott sz\'e1m\'fa g\'e9phez (\'e1ltal\'e1ban egy g\'e9phez) k\'f6t\f0\'f5\f1 dik.\f0\lang1038  Ha megv\'e1ltozik a sz\'e1m\'edt\'f3g\'e9pe vagy a h\'e1l\'f3zati k\'e1rty\'e1ja, a programot \'fajra kell regisztr\'e1lnia \'e9s ahhoz \'faj licencet kell v\'e1s\'e1rolnia!\f1\lang1033\par
+
+\pard\sa200\sl276\slmult1 (Erre tekintettel nem javasoljuk a program haszn\'e1lat\'e1t virtu\'e1lis g\'e9p vagy virtu\'e1lis adapter eset\'e9n, amikor megv\'e1ltozhat a h\'e1l\'f3zati k\'e1rtya c\'edme.)\par
+}</value>
+    <comment>regisztrációs ablak üzenete RTF-ben</comment>
+  </data>
+  <data name="enum_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enum_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15_package_XML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15_package_XML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="build_Solution_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\build_Solution_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Information_16xLG_color_magenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Information_16xLG_color_magenta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17_person" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17_person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OBHGEPIResources_v1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OBHGEPIResources_v1.4.jar;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StatusAnnotations_Help_and_inconclusive_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Help_and_inconclusive_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toolbox_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toolbox_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Critical_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Critical_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5b_upload_orig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5b_upload_orig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9_passw_export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9_passw_export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Information_16xLG_color_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Information_16xLG_color_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strUjNyomtatvany" xml:space="preserve">
+    <value>A telepített nyomtatványokhoz képest az OBH újabb nyomtatványokat tett közzé.
+Le kívánja ezeket tölteni?</value>
+  </data>
+  <data name="ures_csv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ures_csv.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_5b_upload_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5b_upload_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_Forward_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_Forward_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oszlopparamok" xml:space="preserve">
+    <value>tablefilter_abev_open_panel_open.col_0=id|0|0
+tablefilter_abev_open_panel_open.col_18=avdh_cst|18|75
+tablefilter_abev_open_panel_open.col_17=Csat.db.|17|100
+tablefilter_abev_open_panel_open.col_16=Kateg\u00F3ria|15|80
+tablefilter_abev_open_panel_open.col_15=Verzi\u00F3v\u00E1lt\u00E1s oka|12|0
+tablefilter_abev_open_panel_open.col_14=Ad\u00F3azonos\u00EDt\u00F3|8|100
+tablefilter_abev_open_panel_open.col_13=Ad\u00F3sz\u00E1m|2|100
+tablefilter_abev_open_panel_open.col_12=D\u00E1tumig|5|70
+tablefilter_abev_open_panel_open.col_11=D\u00E1tumt\u00F3l|4|70
+tablefilter_abev_open_panel_open.col_10=Nyomtatv\u00E1ny verzi\u00F3|16|150
+tablefilter_abev_open_panel_open.col_9=Verzi\u00F3|11|50
+tablefilter_abev_open_panel_open.col_8=Inform\u00E1ci\u00F3|7|200
+tablefilter_abev_open_panel_open.col_7=Szervezet|13|75
+tablefilter_abev_open_panel_open.col_6=Megjegyz\u00E9s|10|150
+tablefilter_abev_open_panel_open.col_5=N\u00E9v|3|150
+tablefilter_abev_open_panel_open.col_4=Mentve|9|140
+tablefilter_abev_open_panel_open.col_3=St\u00E1tusz|6|70
+tablefilter_abev_open_panel_open.col_2=\u00C1llom\u00E1ny|14|500
+tablefilter_abev_open_panel_open.col_1=Nyomtatv\u00E1ny neve|1|170</value>
+  </data>
+  <data name="StatusAnnotations_Play_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Play_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_Open_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book_Open_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5c_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5c_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_16xSM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list_16xSM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Complete_and_ok_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Complete_and_ok_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_open_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_open_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strJavaHianyzik" xml:space="preserve">
+    <value>A program használja az ÁNYK programot. Ennek működéséhez 32 bites Java 1.8.0 futtatókörnyezet (virtuális gép) szükséges.
+Az Ön gépén nem találtunk ilyen Java környezetet.
+Telepíti vagy megpróbálja e funkciók nélkül használni a programot?</value>
+  </data>
+  <data name="XMLFile_32x_ENYK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XMLFile_32x_ENYK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark_003_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookmark_003_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_Sync_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_Sync_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_settings_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2_settings_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9_passw_record" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9_passw_record.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="breakpoint_Off_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\breakpoint_Off_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2_settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Information_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Information_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strANYKHianyzik" xml:space="preserve">
+    <value>A program használja az ÁNYK programot, amely azonban úgy tűnik, nincsen erre a gépre telepítve.
+Telepítsük az ÁNYK-t vagy csak az ÁNYK nélkül is futó funkciókat használja?</value>
+  </data>
+  <data name="_5b_upload_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5b_upload_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow_RedoRetry_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow_RedoRetry_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow_UndoRevertRestore_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow_UndoRevertRestore_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XMLFile_32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XMLFile_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strPKPFigyelmeztetesRTF" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1250\deff0\nouicompat\deflang1038{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red255\green255\blue255;}
+{\*\generator Riched20 10.0.14393}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qj\highlight1\f0\fs19\lang14 A felt\f1\'f6lt\'e9shez a program \'e1tm\'e1solja az elk\'e9sz\'fclt KR-t az \'c1NYK k\'fcldend\f0\'f5 mapp\f1\'e1j\'e1ba, majd megnyitja az \'c1NYK-t.\par
+A megny\'edl\'f3 \'c1NYK-ban v\'e1lassza a '\b Kapcsolat a Perkapuval\b0 ' vagy 'Kapcsolat a Hivatali Kapuval' men\'fcpontot, \'e9s azon bel\'fcl a '\b Nyomtatv\'e1ny csoportos k\'f6zvetlen bek\'fcld\'e9se\b0 ' parancsot\f0\lang1038 , ezen bel\'fcl c\'e9lszere\'fbn a 'KR f\'e1jl hozz\'e1ad\'e1sa' parancsot.\f1\lang14\par
+\f0\lang1038 A\f1\lang14  bek\'fcldend\f0\'f5 nyomtatv\f1\'e1ny nev\'e9t a program a \b v\'e1g\'f3lapra \b0 m\'e1solta\f0\lang1038 , teh\'e1t el\'e9g lesz Ctrl+V billenty\'fbvel vagy a jobb gomb+Beilleszt\'e9s (Paste) paranccsal bem\'e1solni a KR csomag nev\'e9t az ablakba.\f1\lang14\par
+(Az \'c1NYK-ban meg kell adnia a perkapu vagy hivatali kapu felhaszn\'e1l\'f3nev\'e9t \'e9s jelszav\'e1t. Ha van m\'e1r ilyen nev\f0\'fb f\f1\'e1jl a k\'fcldend\f0\'f5 k\f1\'f6nyvt\'e1rban, a program fel\'fcl\'edrja.\f0\lang1038 )\par
+}</value>
+    <comment>PKP tárgyú figyelmeztetés üzenet RTF-ben</comment>
+  </data>
+  <data name="StatusAnnotations_Help_and_inconclusive_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Help_and_inconclusive_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddressEnvelope_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddressEnvelope_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_orig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5_orig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Alert_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Alert_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16b_case" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16b_case.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASCube_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASCube_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18_lawyer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18_lawyer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_Down_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_Down_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_16xLG_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_16xLG_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15_package_ENYK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15_package_ENYK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15_package_extract_KR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15_package_extract_KR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1_notify_bwtr_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_notify_bwtr_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_Next_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_Next_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_Dynamic16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_Dynamic16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14_fillout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14_fillout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_previous_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_previous_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16_case" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16_case.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Complete_and_ok_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Complete_and_ok_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Blocked_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Blocked_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_Previous_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_Previous_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eper_helper_button_32x32_rgb_v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eper_helper_button_32x32_rgb_v1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Binary_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Binary_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10_export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10_export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="action_Cancel_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\action_Cancel_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="server_reg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\server_reg.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="_5b_upload_magenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5b_upload_magenta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5c_orig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5c_orig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5c_magenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5c_magenta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_Up_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_Up_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Column_32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Column_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TorzsAdatbazis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TorzsAdatbazis.mdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StatusAnnotations_Stop_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Stop_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5b_upload_masblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5b_upload_masblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_back_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_back_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Play_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Play_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Critical_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Critical_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MemoryArray_16x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MemoryArray_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animation_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animation_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_magenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5_magenta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9_passw_print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9_passw_print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow_RedoRetry_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow_RedoRetry_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_Next_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_Next_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusAnnotations_Warning_16xLG_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatusAnnotations_Warning_16xLG_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bracket_Curved_16xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bracket_Curved_16xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adobe_PDF_file_icon_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adobe_PDF_file_icon_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="certificate_32xLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\certificate_32xLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4_folders" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4_folders.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15_package_extract_CST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15_package_extract_CST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="browsericons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\browsericons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
