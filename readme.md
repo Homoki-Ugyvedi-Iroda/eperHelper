@@ -1,7 +1,7 @@
 eperHelper
 ---------
 This project is the *eperHelper*.
-It was designed in 2016-2017 as a tool *to assist Hungarian lawyers in electronic court procedures* in Hungary, including 
+It was in production 2016-2017 as a tool *to assist Hungarian lawyers in electronic court procedures* in Hungary, including 
 
 a) use of a custom XML-based form filling software called ÁNYK (General Form Filler) with roots dating back to 1998;
 
