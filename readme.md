@@ -16,3 +16,5 @@ e) archival and extracting of files, use of encryption keys for documents etc.
 The main reason for the creation was to facilitate the use of the very user unfriendly processes in electronic court procedures that were mandatory for lawyers to use from 1st July 2016.
 
 The tool was available via a webshop, and upon payment by card, a unique registration code for that particular machine was issued (copy protection was required because of the signature module), with support provided by an IT company (Arconsult). The tool was discontinued after 6 months due to the lack of commercial interest (39 licenses bought at 16 900 HUF+VAT/each, cca. 50 euro/each).
+
+Will probably not compile.
